@@ -13,3 +13,6 @@ mod 'puppet-windows_firewall', '2.0.1'
 mod 'puppetlabs-chocolatey', '3.0.0'
 mod 'puppetlabs-powershell', '2.1.5'
 mod 'puppetlabs-registry', '2.0.2'
+mode 'time',
+    :git => 'git@gitlab.classroom.puppet.com:puppet/time.git',
+    :branch => 'student7'
