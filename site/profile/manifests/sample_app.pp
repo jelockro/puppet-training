@@ -9,4 +9,5 @@ class profile::sample_app {
     default: {
       fail('Unsupported operating system!')
     }
+  }
 }
